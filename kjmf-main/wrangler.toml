@@ -1,0 +1,13 @@
+name = "kjmf"
+main = "_worker.js"
+compatibility_date = "2023-11-21"
+
+[triggers]
+crons = []
+
+# 使用更高级别的 CPU 限制计划
+usage_model = "bundled"
+
+# 增加 CPU 限制
+[limits]
+cpu_ms = 50 
